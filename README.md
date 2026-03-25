@@ -1,24 +1,51 @@
-# README
+# Rails Task Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A task management application built with Ruby on Rails, allowing users to create, view, update, and delete tasks.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- List all tasks
+- View task details
+- Create new tasks
+- Edit existing tasks (including completion status)
+- Delete tasks
 
-* System dependencies
+## Tech Stack
 
-* Configuration
+- Ruby on Rails
+- Active Record (ORM)
+- ERB (Embedded Ruby)
+- Bootstrap & Font Awesome (for styling)
 
-* Database creation
+## How It Works
 
-* Database initialization
+The application follows the MVC architecture:
 
-* How to run the test suite
+- **Model**: Task model with title, details, and completion status
+- **Controller**: Handles CRUD operations and user interactions
+- **View**: Renders forms and task data dynamically
 
-* Services (job queues, cache servers, search engines, etc.)
+Tasks are stored in a database and managed using Active Record.
 
-* Deployment instructions
+## Setup
 
-* ...
+git clone <your-repo-url>
+cd rails-task-manager
+bundle install
+rails db:create db:migrate
+rails server
+
+Open in your browser:
+http://localhost:3000/tasks
+
+## Learnings
+
+- Building full CRUD functionality from scratch
+- Working with Active Record and database migrations
+- Handling REST-like routes and controller actions
+- Managing forms and user input in Rails
+- Structuring a complete Rails application
+
+## Notes
+
+This project was built to practice core Rails concepts, including database-backed applications and CRUD workflows.
