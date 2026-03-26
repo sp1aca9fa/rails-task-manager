@@ -15,7 +15,6 @@ A task management application built with Ruby on Rails, allowing users to create
 - Ruby on Rails
 - Active Record (ORM)
 - ERB (Embedded Ruby)
-- Bootstrap & Font Awesome (for styling)
 
 ## How It Works
 
@@ -29,14 +28,15 @@ Tasks are stored in a database and managed using Active Record.
 
 ## Setup
 
-git clone <your-repo-url>
+```bash
+git clone https://github.com/sp1aca9fa/rails-task-manager.git
 cd rails-task-manager
 bundle install
 rails db:create db:migrate
 rails server
+```
 
-Open in your browser:
-http://localhost:3000/tasks
+Open in your browser: http://localhost:3000
 
 ## Learnings
 
