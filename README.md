@@ -48,4 +48,4 @@ Open in your browser: http://localhost:3000
 
 ## Notes
 
-This project was built to practice core Rails concepts, including database-backed applications and CRUD workflows.
+This project is a solution to a Le Wagon bootcamp coding challenge and it was built to practice core Rails concepts, including database-backed applications and CRUD workflows.
